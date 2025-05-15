@@ -1,0 +1,22 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontal centering */
+  justify-content: center;  /* vertical centering (if full-height) */
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 80vh;         /* optional: makes page fill most of screen */
+}
+
+.resume-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3f51b5;
+}
+
+.resume-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
